@@ -1,0 +1,28 @@
+@font-face{
+    font-family: Poppins Light;
+    src: url('/src/Fonts/Poppins/Poppins-Light.ttf')
+  }
+
+*{
+    font-family: Poppins Light;
+}
+
+.nav_links{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(59, 59, 59);
+}
+
+.bot-style{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    margin: 5px 5px;
+}
+
+.bot-style:hover{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}

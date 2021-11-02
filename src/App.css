@@ -1,5 +1,19 @@
+@font-face{
+  font-family: Poppins Light;
+  src: url('/src/Fonts/Poppins/Poppins-Light.ttf')
+}
+
+*{
+  background-color: white;
+  font-family: Poppins Light;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  color: blue;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .App-logo {

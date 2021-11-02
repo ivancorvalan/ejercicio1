@@ -1,0 +1,32 @@
+@font-face{
+    font-family: Poppins Light;
+    src: url('/src/Fonts/Poppins/Poppins-Light.ttf')
+  }
+
+*{
+    font-family: Poppins Light;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-style{
+    height: 150px;
+    padding: 90px 20px;
+    background-image: url('img/header.webp');
+    background-position: center;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(59, 59, 59);
+    text-align:start;
+    justify-content: flex-start;
+}
+
+.sub-header-style{
+    color: white;
+    background-color:rgba(0, 0, 0, 0);
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
